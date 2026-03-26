@@ -1,1 +1,10 @@
 planejamento.md
+
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/crash.log
+infra/crash.*.log
+infra/lambda.zip
+infra/*.tfvars
+!infra/terraform.tfvars.example

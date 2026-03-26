@@ -1,0 +1,6 @@
+# Copie para terraform.tfvars e ajuste (terraform.tfvars não deve ir para o git com segredos).
+# O nome do bucket S3 precisa ser único globalmente na AWS.
+
+aws_region           = "us-east-1"
+bucket_name          = "meu-csv-bucket-unico-123"
+lambda_function_name = "csv-monitor-lambda"
